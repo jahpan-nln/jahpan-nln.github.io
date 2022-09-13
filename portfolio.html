@@ -72,6 +72,32 @@
             padding: 15px;
         }
 
+        /* portfolio styles */
+        .content h1 {
+            color: black;
+        }
+
+        #portfolio {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #portfolio li {
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        #portfolio li:hover {
+            background: #eee;
+        }
+
+        #portfolio a {
+            text-decoration: none;
+            color: #454545;
+        }
+
         #interests {
             border: 4px silver ridge;
             padding: 8px;
@@ -85,7 +111,6 @@
 </head>
 
 <body>
-    <!--all content goes here-->
     <div id="all-contents">
         <nav>
             <h1>Jah's Portfolio</h1>
@@ -95,24 +120,16 @@
             </ul>
         </nav>
         <main>
-            <!--sidebar section-->
-            <div class="sidebar">
-                <img class="sidebar-img" src="https://cdn.shopify.com/s/files/1/0098/8233/7342/products/ScreenShot2022-02-03at12.36.05PM_1024x1024.png?v=1643916976"
-                    alt="profile image">
-            </div>
-            <!--content section-->
             <div class="content">
-                <h2>Jahiron Pandy</h2>
-                <p>Student at NLN</p>
-                <!--interests section-->
-                <div id="interests">
-                    <h3>Interests</h3>
-                    <ul>
-                        <li>drawing</li>
-                        <li>food</li>
-                        <li>skating</li>
-                    </ul>
-                </div>
+                <h1>Portfolio</h1>
+                <ul id="portfolio">
+                    <li><a href="projects/platformer/">Platformer : A cannon - dodging, collectible - grabbing adventure
+                            game for Halleb0t</a></li>
+                    <li><a href="projects/bouncing-box/">Bouncing Box : A project that gives you a taste of game
+                            development on the web </a></li>
+                    <li><a href="projects/circularity/">Circularity : A motion poem using random number generation and
+                            velocity applied to circle shapes...</a></li>
+                </ul>
             </div>
         </main>
     </div>
